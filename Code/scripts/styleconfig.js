@@ -17,4 +17,4 @@ function temaedit() {
     if (window.tema == "cl") {
         body.style.backgroundColor = 'white'
     } else {}
-}
+}//.
