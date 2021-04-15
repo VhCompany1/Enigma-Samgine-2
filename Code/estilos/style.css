@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 2px red;
+    font-family: Arial;
+}
+
+.mao {
+    width: 150px;
+    height: 150px;
+}
+
+.animation {
+    width: 1000px;
+    height: 100px;
+}
+
+.botao {
+    /*background-color: black;
+    color: brown;
+    border-radius: 15%;
+    width: 100px;*/
+    border-radius: 10%;
+    border-color: brown;
+    border-style: solid;
+    background-color: black;
+    color: red;
+    width: 110px;
+    height: 50px;
+}
+
+.botao:hover {
+    width: 140px;
+    /*height: 30px;*/
+}
+
+.res {
+    background-color: black;
+    color: dimgrey;
+    width: 200px;
+    height: 50px;
+}
+
+#trilha {
+    background-color: black;
+    color: black;
+    width: 100px
+}
+
+escondido {
+    color: black;
+    font-size: 10pt;
+    text-shadow: none;
+}
+
+.menu {
+    width: 500px;
+    height: 1000px;
+    border-radius: 5%;
+    border-width: medium;
+    border-style: solid;
+    border-color: red;
+    text-align: center;
+    background-color: black;
+}
+
+.menuc {
+    width: 500px;
+    height: 1000px;
+    border-radius: 5%;
+    border-width: medium;
+    border-style: solid;
+    border-color: red;
+    text-align: center;
+    background-color: black;
+}
+
+.menuc h2 {
+    text-align: left;
+}
+
+.menuc p {
+    text-align: left;
+}
+
+.link {
+    color: red;
+}

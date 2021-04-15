@@ -1,0 +1,13 @@
+window.respostas = {
+    1: 'JUSTIN TRUDEAU',
+    2: 'VIADUTO MARIA CONCEIÇÃO GALVÃO ANDRADE',
+    3: '121221',
+    4: '00110001 00110000 00110000 00110111 00110010 00110111 00101101 00111001 00111001 00110010',
+    5: 'KAMAITACHI',
+    6: '17649',
+    7: 'WILLIAM HIGINBOTHAM',
+    8: '2015',
+    9: window.name.length,
+    10: '1 2 3 4 5 9 7 8 9',
+    11: 'ALL RIGHT'
+}   
