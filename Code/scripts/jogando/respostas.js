@@ -9,5 +9,8 @@ window.respostas = {
     8: '2015',
     9: window.name.length,
     10: '1 2 3 4 5 9 7 8 9',
-    11: 'ALL RIGHT'
+    11: 'ALL RIGHT',
+    12: 'É HORA DE DANÇAR COM A MÚSICA DO BEBÊ SHARK',
+    13: '23H40',
+    14: 'JÚPITER'
 }   

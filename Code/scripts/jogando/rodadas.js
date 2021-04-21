@@ -214,6 +214,65 @@ function rodadas() {
         corpo.innerHTML += '<p><input type="button" value="Responder" onclick="rodadas()" class="botao"></p>'
 
         if (r == respostas[rodada]) {
+            window.alert('Então você gosta do youtube?')
+
+            rodada++
+        } else if (r != respostas[rodada] && r != respostas[rodada - 1]) {
+            window.alert('Você erro')
+        }
+    }
+
+    if (rodada == 12) {
+        title.innerHTML = 'Fase 12'
+
+        corpo.innerHTML = ''
+
+        corpo.innerHTML = '<h1>Aquele que mais foi visto</h1>'
+
+        corpo.innerHTML += '<p><input type="text" name="" id="res" class="res" placeholder="Resposta..."></p>'
+        corpo.innerHTML += '<p><input type="button" value="Responder" onclick="rodadas()" class="botao"></p>'
+
+        corpo.innerHTML += '<p><escondido>Vamos dançar?</escondido></p>'
+
+        if (r == respostas[rodada]) {
+            window.alert('Você ja ouviu falar daquele que matou milhares?')
+
+            rodada++
+        } else if (r != respostas[rodada] && r != respostas[rodada - 1]) {
+            window.alert('Você erro')
+        }
+    }
+
+    if (rodada == 13) {
+        title.innerHTML = 'Fase 13'
+
+        corpo.innerHTML = ''
+
+        corpo.innerHTML = '<h1>Que horas ele matou cerca de 1500?</h1>'
+
+        corpo.innerHTML += '<p><input type="text" name="" id="res" class="res" placeholder="Resposta..."></p>'
+        corpo.innerHTML += '<p><input type="button" value="Responder" onclick="rodadas()" class="botao"></p>'        
+
+        if (r == respostas[rodada]||r == '23H40M') {
+            window.alert('Você gosta de astronomia?')
+
+            rodada++
+        } else if (r != respostas[rodada] && r != respostas[rodada - 1]) {
+            window.alert('Você erro')
+        }
+    }
+
+    if (rodada == 14) {
+        title.innerHTML = 'Fase 14'
+
+        corpo.innerHTML = ''
+
+        corpo.innerHTML = '<h1>Satelites</h1>'
+
+        corpo.innerHTML += '<p><input type="text" name="" id="res" class="res" placeholder="Resposta..."></p>'
+        corpo.innerHTML += '<p><input type="button" value="Responder" onclick="rodadas()" class="botao"></p>'        
+
+        if (r == respostas[rodada]) {
             window.alert('?')
 
             rodada++
